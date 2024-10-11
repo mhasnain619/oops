@@ -115,3 +115,12 @@ async function hello() {
     console.log('hello');
 
 }
+
+
+let myNam = async () => {
+    setTimeout(() => {
+        await(console.log('hasmaintay'))
+    }, 5000);
+}
+
+myNam()
